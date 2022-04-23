@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 30px;
+    background: linear-gradient(80deg, #28313b, #485461);
+}
+li {
+    list-style-type: none;
+}
+.block {
+    font-size: 18px;
+}
+.title {
+    padding: 0px 0px 0px 35px;
+}
+.todo li {
+    background: url(check\ icon.png) no-repeat left;
+    padding: 10px 0px 0px 30px;
+}
+.todo li:first-child {
+    text-decoration: line-through;
+}
+.todo li:nth-child(2) {
+    font-weight: bold;
+}
+.todo li:nth-child(3) {
+    font-style: italic;
+}
+.todo li:last-child {
+    text-transform: uppercase;
+}
+.todo li:hover:first-child {
+    text-decoration: none;
+}
+.todo li:hover:nth-child(2) {
+    color: #d55a5a;
+    background: url(check.png) left no-repeat;
+}
+.todo li:hover:nth-child(3) {
+    font-style: normal;
+}
+.todo li:hover:last-child {
+    text-transform: none;
+}
+
+.button {
+    background-color: green;
+    border-radius: 30px;
+    margin: 0px 0px 40px 0px;
+}
+.button:hover {
+    background-color: #3a5856;
+}
+.button:active {
+    background-color: #818181;
+}
+.form input {
+    display: block;
+    width: 350px;
+    height: 50px;
+}
+.form input:focus {
+    box-shadow: 0px 3px 10px rgba(127, 190, 213, 1);
+}
